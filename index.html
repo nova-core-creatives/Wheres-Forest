@@ -355,12 +355,15 @@
                 <div class="shape-2"><img src="assets/images/background/shape-2.png" alt="shape img"/></div>
                 <div class="row">
                   <div class="col-12 align-content-stretch">
-                    <h3>Subscribe our newsletter</h3>
+                    <h3>Drop us a Line</h3>
                     <div class="form-mailchimp">
                       <form class="mb-0 form-action"
+                      action="/success"
                       name="contact"
-                      action="contact.php"
                       method="POST"
+                      netlify-honeypot="subject"
+                      data-netlify="true"
+                      data-netlify-recaptcha="true"
                       >
                       <div class="input-group" style="margin:1em">
                         <div class="input-icon">
@@ -370,6 +373,11 @@
                           <input class="form-control" id="name" name="name" type="name" placeholder="Your Name" required="required"/>
                         </div>
                       </div>
+                      <p style="display:none;">
+                        <label>
+                          Subject <input name="subject" />
+                        </label>
+                      </p>
 
                       <div class="input-group" style="margin:1em">
                         <div class="input-icon">
@@ -388,6 +396,7 @@
                         </div>
                       </div>
 
+                          <div data-netlify-recaptcha="true"></div>
 
                         <button type="submit" class="btn btn--primary" style="float:right; top:10px; text-align: center;">
                           <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24.779 24.779">
@@ -424,7 +433,6 @@
                 <p><a href="mailto:vynefilms@gmail.com?subject=Where's%20Foster">vynefilms@gmail.com</a></p>
                 <div class="footer-social">
                   <ul class="list-unstyled">
-                    <li> <a target="_blank" href="https://twitter.com/VyneFilms"><i class="fab fa-twitter"></i></a></li>
                     <li> <a target="_blank" href="https://www.facebook.com/vynefilms"><i class="fab fa-facebook-f"></i></a></li>
                     <li> <a target="_blank" href="https://www.imdb.com/title/tt16567662/"><i class="fab fa-imdb"></i></a></li>
                   </ul>
