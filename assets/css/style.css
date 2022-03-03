@@ -39,11 +39,11 @@ html {
   font-size: 13px; }
 
 body {
-  background-color: #2C2929;
+  background-color: #ffffff;
   font-family: "Lato", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #919294;
+  color: #ffffff;
   line-height: 1.5;
   margin: 0; }
 
@@ -67,14 +67,14 @@ a {
   transition: 0.3s ease;
   color: #ACD1F2; }
   a:hover {
-    color: #7630d4;
+    color: #A65233;
     text-decoration: none; }
   a:focus {
-    color: #7630d4;
+    color: #A65233;
     outline: none;
     text-decoration: none; }
   a:active {
-    color: #7630d4;
+    color: #A65233;
     outline: none;
     text-decoration: none; }
 
@@ -149,7 +149,7 @@ h6 {
   font-size: 18px; }
 
 p {
-  color: #919294;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 400;
   line-height: 22px; }
@@ -1120,7 +1120,7 @@ a.back {
 
 /* Button Secondary*/
 .btn--secondary {
-  background-color: #A65233;
+  background-color: #ACD1F2;
   color: #ffffff; }
   .btn--secondary:active, .btn--secondary:focus, .btn--secondary:hover {
     background-color: #ACD1F2;
@@ -1178,7 +1178,7 @@ a.back {
       border-color: #ffffff; }
 
 .btn--white.btn--secondary {
-  color: #A65233;
+  color: #ACD1F2;
   border-color: #ffffff;
   background-color: #ffffff; }
   .btn--white.btn--secondary:active, .btn--white.btn--secondary:focus, .btn--white.btn--secondary:hover {
@@ -1710,7 +1710,8 @@ a.back {
     z-index: 1001; }
 
 @media screen and (min-width: 992px) {
-  .header-2 .navbar-expand-lg > .container,
+  .header-2 .
+  bar-expand-lg > .container,
   .header-2 .navbar-expand-lg > .container-fluid {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1747,7 +1748,7 @@ a.back {
       text-transform: capitalize;
       font-weight: 600;
       line-height: 22px;
-      color: #030006;
+      color: #ffffff;
       padding: 0;
       position: relative;
       display: block;
@@ -1762,14 +1763,14 @@ a.back {
           content: '';
           height: 2px;
           width: 0;
-          background-color: #030006;
+          background-color: #ffffff;
           -webkit-transition: width 300ms ease-in-out;
           -o-transition: width 300ms ease-in-out;
           transition: width 300ms ease-in-out; } }
     .header .navbar .navbar-nav > li.active > a,
     .header .navbar .navbar-nav > li > a:focus,
     .header .navbar .navbar-nav > li > a:hover {
-      color: #030006; }
+      color: #acd1f2; }
       @media screen and (min-width: 992px) {
         .header .navbar .navbar-nav > li.active > a:before,
         .header .navbar .navbar-nav > li > a:focus:before,
@@ -1784,7 +1785,7 @@ a.back {
         .header .navbar .navbar-nav > li a {
           margin-right: 0;
           padding: 15px 10px;
-          color: #030006;
+          color: #ffff;
           line-height: 1; }
         .header .navbar .navbar-nav > li.active, .header .navbar .navbar-nav > li:hover, .header .navbar .navbar-nav > li:focus, .header .navbar .navbar-nav > li:active {
           background-color: #ACD1F2; }
@@ -1977,12 +1978,12 @@ a.back {
           line-height: 40px; } }
 
 .header .navbar-fixed .module-container .module-cta .btn {
-  background-color: #A65233;
-  border-color: #A65233;
+  background-color: #ACD1F2;
+  border-color: #ACD1F2;
   color: #ffffff; }
   .header .navbar-fixed .module-container .module-cta .btn:hover, .header .navbar-fixed .module-container .module-cta .btn:active, .header .navbar-fixed .module-container .module-cta .btn:focus {
-    background-color: #ACD1F2;
-    border-color: #ACD1F2; }
+    background-color: #A65233;
+    border-color: #A65233; }
 
 /*------------------------------------*\
     #Hero
@@ -2065,7 +2066,7 @@ a.back {
           font-family: "Lato", sans-serif;
           font-size: 18px;
           font-weight: 400;
-          color: #919294; }
+          color: #ffffff; }
       .hero .hero-cotainer .hero-content .hero-headline {
         color: #93A5A3;
         font-family: "Poppins", sans-serif;
@@ -2312,7 +2313,7 @@ a.back {
         line-height: 28px;
         font-weight: 400;
         text-transform: capitalize;
-        color: #2C2929;
+        color: #ffffff;
         margin-bottom: 10px; }
       .testimonials .testimonial-panel .testimonial-body .rating {
         margin-bottom: 29px; }
@@ -2329,7 +2330,7 @@ a.back {
         font-size: 17px;
         font-weight: 400;
         line-height: 30px;
-        color: #2C2929;
+        color: #ffffff;
         margin-bottom: 0; }
     .testimonials .testimonial-panel .testimonial-img {
       position: relative;
@@ -2579,6 +2580,7 @@ a.back {
     position: relative;
     background-color: #ACD1F2;
     padding: 100px 150px;
+    vertical-align: middle;
     position: relative;
     z-index: 1;
     border-radius: 42px;
@@ -2704,6 +2706,23 @@ a.back {
         @media (max-width: 395px) {
           .form-mailchimp .input-group .input-icon .form-control {
             font-size: 17px; } }
+
+      .form-message{
+      
+       height:500px;
+      }
+      @media screen and (max-width: 991px){
+      .form-message{
+        height:500px;
+        width:500px;
+      }
+    }
+    @media screen and (max-width: 767px){
+    .form-message{
+      height:500px;
+      width:500px;
+    }
+  }
 
 /*------------------------------------*\
     #Pricing
@@ -3320,7 +3339,8 @@ a.back {
             .hero-card-image{
               width:auto;
               height:auto;
-              display:inline-block;
+              border-radius: 5%;
+              display: inline-block;
               vertical-align:middle;
               -webkit-box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
                       box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
@@ -3339,4 +3359,13 @@ a.back {
               border-radius: 5%;
               -webkit-box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
                       box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+            }
+            .full-width {
+            	left: 50%;
+            	margin-left: -50vw;
+            	margin-right: -50vw;
+            	max-width: 100vw;
+            	position: relative;
+            	right: 50%;
+            	width: 100vw;
             }
