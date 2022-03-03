@@ -39,7 +39,7 @@ html {
   font-size: 13px; }
 
 body {
-  background-color: #ffffff;
+  background-color: #2C2929;
   font-family: "Lato", sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -787,8 +787,12 @@ section {
 .bg-primary-alt {
   background-color: #ACD1F2 !important; }
 
+.bg-black {
+  background-color: #2C2929 !important; }
+
 .bg-gray {
-  background-color: #FAF8FB !important; }
+  background-color: #a6a6a6 !important; }
+
 
 .bg-white {
   background-color: #ffffff !important; }
@@ -882,7 +886,7 @@ section {
 
 .bg-green-sea {
   color: #ffffff;
-  background-color: #16a085 !important; }
+  background-color: #93A5A3 !important; }
 
 .bg-emerald {
   color: #ffffff;
@@ -1010,8 +1014,8 @@ section {
   position: absolute;
   left: 0px;
   top: 0;
-  background: -o-linear-gradient(left top, #ffffff 49%, #262B47 50%), -o-linear-gradient(140deg, #ffffff 16px, #000 0);
-  background: linear-gradient(to right bottom, #ffffff 49%, #262B47 50%), linear-gradient(-50deg, #ffffff 16px, #000 0); }
+  background: -o-linear-gradient(left top, #2C2929 49%, #93A5A3 50%), -o-linear-gradient(140deg, #ffffff 16px, #000 0);
+  background: linear-gradient(to right bottom, #2C2929 49%, #93A5A3 50%), linear-gradient(-50deg, #ffffff 16px, #000 0); }
 
 /*------------------------------------*\
     #BUTTONS
@@ -2181,7 +2185,7 @@ a.back {
           .hero .hero-cotainer .hero-content .form-mailchimp .input-group .btn span {
             font-size: 16px; }
     .hero .hero-cotainer .hero-image {
-      overflow: visible; }
+      overflow: visible;; }
   .hero.hero-light .hero-cotainer .hero-content .hero-headline {
     color: #ffffff; }
   .hero.hero-light .hero-cotainer .hero-content .hero-bio {
@@ -2283,7 +2287,7 @@ a.back {
         -o-transition: 0.3s ease-in-out;
         transition: 0.3s ease-in-out; }
   .testimonials .testimonial-panel {
-    background-color: #ffffff;
+    background-color: #a6a6a6;
     border-radius: 24px; }
     .testimonials .testimonial-panel .testimonial-body {
       padding: 0 0 0 70px; }
@@ -2299,7 +2303,7 @@ a.back {
         font-size: 26px;
         line-height: 30px;
         font-weight: 600;
-        color: #93A5A3;
+        color: #ACD1F2;
         text-transform: capitalize;
         margin-bottom: 0; }
       .testimonials .testimonial-panel .testimonial-body .testimonial-title {
@@ -2308,7 +2312,7 @@ a.back {
         line-height: 28px;
         font-weight: 400;
         text-transform: capitalize;
-        color: #919294;
+        color: #2C2929;
         margin-bottom: 10px; }
       .testimonials .testimonial-panel .testimonial-body .rating {
         margin-bottom: 29px; }
@@ -2325,7 +2329,7 @@ a.back {
         font-size: 17px;
         font-weight: 400;
         line-height: 30px;
-        color: #919294;
+        color: #2C2929;
         margin-bottom: 0; }
     .testimonials .testimonial-panel .testimonial-img {
       position: relative;
@@ -2333,7 +2337,7 @@ a.back {
       @media screen and (max-width: 991px) {
         .testimonials .testimonial-panel .testimonial-img {
           padding-left: 50px;
-          padding-rightt: 50px; } }
+          padding-right: 50px; } }
       @media screen and (max-width: 767px) {
         .testimonials .testimonial-panel .testimonial-img {
           padding-left: 20px;
@@ -2570,6 +2574,8 @@ a.back {
   padding-bottom: 0;
   overflow: visible; }
   .cta .action-container {
+    -webkit-box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+            box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
     position: relative;
     background-color: #ACD1F2;
     padding: 100px 150px;
@@ -2833,7 +2839,10 @@ a.back {
 \*------------------------------------*/
 .video .player {
   position: relative;
-  border-radius: 8px; }
+  border-radius: 8px;
+  -webkit-box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+          box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+ }
   @media screen and (min-width: 992px) {
     .video .player {
       padding: 300px 0; } }
@@ -3306,4 +3315,28 @@ a.back {
 
             .brands_next {
                 right: 40px
+            }
+
+            .hero-card-image{
+              width:auto;
+              height:auto;
+              display:inline-block;
+              vertical-align:middle;
+              -webkit-box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+                      box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+
+            }
+            .about-card-image{
+              border-radius: 50%;
+              width:auto;
+              height:auto;
+              display:inline-block;
+              vertical-align:middle;
+              -webkit-box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+                      box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+            }
+            .synopsis-card-img{
+              border-radius: 5%;
+              -webkit-box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
+                      box-shadow: 0 10px 40px rgba(219, 219, 219, 0.45);
             }
