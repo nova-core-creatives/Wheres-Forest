@@ -4,6 +4,6 @@
   Publish = "public"
 
 [[plugins]]
-  package = "html-webpack-plugin@2.29.0"
+  package = "html-webpack-plugin"
   [plugins.inputs]
   minify = false
