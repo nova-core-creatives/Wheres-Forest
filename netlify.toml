@@ -2,3 +2,8 @@
   Command = "npm run build && npm run build:lambda"
   Functions = "lambda"
   Publish = "public"
+
+[[plugins]]
+  package = "html-webpack-plugin@2.29.0"
+  [plugins.inputs]
+  minify = false
