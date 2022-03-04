@@ -5817,9 +5817,10 @@ p-map@^1.1.1:
   resolved "https://registry.npmjs.org/p-map/-/p-map-1.2.0.tgz"
   integrity sha512-r6zKACMNhjPJMTl8KcFH4li//gkrXWfbD6feV8l6doRHlzljFWGJ2AP6iKaCJXyZmAUMOPtvbW7EXkbWO/pLEA==
 
-p-throttle@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/p-throttle/-/p-throttle-5.0.0.tgz"
+p-throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-4.1.1.tgz#80b1fbd358af40a8bfa1667f9dc8b72b714ad692"
+  integrity sha512-TuU8Ato+pRTPJoDzYD4s7ocJYcNSEZRvlxoq3hcPI2kZDZ49IQ1Wkj7/gDJc3X7XiEAAvRGtDzdXJI0tC3IL1g==
 
 p-try@^1.0.0:
   version "1.0.0"
@@ -6635,6 +6636,11 @@ react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-scripts-plugin-no-minify@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-scripts-plugin-no-minify/-/react-scripts-plugin-no-minify-0.4.0.tgz#65f75e8aa5203494aac26798b4cca0c7ad471f4d"
+  integrity sha512-vASbAQ+FCvCduyg2ojGY878zHvqFhXLUEDgtQ1G/Edj/y+pEfBY4QVpcn0YApAHQ0YmBkeSiDCRhw1hu5inwWg==
 
 react-scripts@1.1.4:
   version "1.1.4"
