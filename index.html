@@ -383,26 +383,26 @@
                           <svg xmlns="http://www.w3.org/2000/svg" width="49.753" height="37.863" viewBox="0 0 49.753 37.863">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M448 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V128C512 92.65 483.3 64 448 64zM64 112h384c8.822 0 16 7.178 16 16v22.16l-166.8 138.1c-23.19 19.28-59.34 19.27-82.47 .0156L48 150.2V128C48 119.2 55.18 112 64 112zM448 400H64c-8.822 0-16-7.178-16-16V212.7l136.1 113.4C204.3 342.8 229.8 352 256 352s51.75-9.188 71.97-25.98L464 212.7V384C464 392.8 456.8 400 448 400z"/></svg>
                           </svg>
-                          <input class="form-control" id="email" name="email" type="email" placeholder="Enter Your E-mail" required="required"/>
+                          <input class="form-control" id="email" name="email" type="email" placeholder="Enter Your E-mail" style="text-transform: none;"required="required"/>
                         </div>
                       </div>
 
-                      <div class="input-group" style="margin:1em; height: 300px; float:top;">
+                      <div class="input-group form-email" style="margin:1em; height: 300px; float:top;">
                         <div class="input-icon" style="align-items:flex-start;  margin-top: 20px; height: 300px;">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32C114.6 32 .0272 125.1 .0272 240c0 47.63 19.91 91.25 52.91 126.2c-14.88 39.5-45.87 72.88-46.37 73.25c-6.625 7-8.375 17.25-4.625 26C5.818 474.2 14.38 480 24 480c61.5 0 109.1-25.75 139.1-46.25C191.1 442.8 223.3 448 256 448c141.4 0 255.1-93.13 255.1-208S397.4 32 256 32zM256.1 400c-26.75 0-53.12-4.125-78.38-12.12l-22.75-7.125l-19.5 13.75c-14.25 10.12-33.88 21.38-57.5 29c7.375-12.12 14.37-25.75 19.88-40.25l10.62-28l-20.62-21.87C69.82 314.1 48.07 282.2 48.07 240c0-88.25 93.25-160 208-160s208 71.75 208 160S370.8 400 256.1 400z"/></svg>
 
-                          <textarea class="form-control form-message" id="message" name="message"name="message" placeholder="Message" style="height:300px"required="required"></textarea>
+                          <textarea class="form-control" id="message" name="message"name="message" placeholder="Message" style="text-transform: none; height:300px"required="required"></textarea>
                         </div>
                       </div>
-
+                      <div class="col-6 vstack gap-3">
                       <div data-netlify-recaptcha="true" style="float:right;"></div>
 
-                        <button type="submit" class="btn btn--primary" style="float:right; top:10px; text-align: center;">
+                        <button type="submit" class="btn btn--primary" style="float:bottom; top:10px; text-align: center;">
                           <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24.779 24.779">
                             <path d="M24.567.213a.726.726,0,0,0-.783-.161L.457,9.383A.726.726,0,0,0,.41,10.711l9.2,4.461,4.461,9.2a.726.726,0,0,0,.653.409h.026a.726.726,0,0,0,.648-.456L24.727,1A.726.726,0,0,0,24.567.213ZM2.522,10.121,21.039,2.714,10,13.75ZM14.659,22.258,11.03,14.776,22.066,3.741Z" transform="translate(0 -0.001)" fill="#fff"></path>
                           </svg><span>send now</span>
                         </button>
-
+                      </div>
                         <!--  End .input-group-->
                       </form>
                       <div class="subscribe-alert"></div>
