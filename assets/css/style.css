@@ -3337,6 +3337,7 @@ a.back {
             }
 
             .hero-card-image{
+              overflow: visible;
               width:auto;
               height:auto;
               border-radius: 5%;
