@@ -1,9 +1,4 @@
 [build]
-  Command = "npm run build && npm run build:lambda"
+  Command = "CI= npm run build && npm run build:lambda"
   Functions = "lambda"
   Publish = "public"
-
-[[plugins]]
-  package = "html-webpack-plugin"
-  [plugins.inputs]
-  minify = false
