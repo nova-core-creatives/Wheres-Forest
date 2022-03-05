@@ -357,49 +357,8 @@
                   <div class="col-12 vstack gap-3">
                     <h3>Leave a Comment</h3>
                     <div class="form-mailchimp ">
-                      <form class="mb-0 form-action"
-                      action="https://submit-form.com/MvTNr5ze"
-                      name="contact"
-                      method="POST"
-                      netlify-honeypot="subject"
-                      data-netlify="true"
-                      data-netlify-recaptcha="true"
-                      >
-                      <input
-                        type="hidden"
-                        name="_redirect"
-                        value="https://wheresfoster.novacore.info/success"
-                      />
 
-                      <p style="display:none;">
-                        <label>
-                          Subject <input name="subject" />
-                        </label>
-                      </p>
-
-
-
-                      <div class="input-group form-email" style="margin:1em; height: 300px; float:top;">
-                        <div class="input-icon" style="align-items:flex-start;  margin-top: 20px; height: 300px;">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32C114.6 32 .0272 125.1 .0272 240c0 47.63 19.91 91.25 52.91 126.2c-14.88 39.5-45.87 72.88-46.37 73.25c-6.625 7-8.375 17.25-4.625 26C5.818 474.2 14.38 480 24 480c61.5 0 109.1-25.75 139.1-46.25C191.1 442.8 223.3 448 256 448c141.4 0 255.1-93.13 255.1-208S397.4 32 256 32zM256.1 400c-26.75 0-53.12-4.125-78.38-12.12l-22.75-7.125l-19.5 13.75c-14.25 10.12-33.88 21.38-57.5 29c7.375-12.12 14.37-25.75 19.88-40.25l10.62-28l-20.62-21.87C69.82 314.1 48.07 282.2 48.07 240c0-88.25 93.25-160 208-160s208 71.75 208 160S370.8 400 256.1 400z"/></svg>
-
-                          <textarea class="form-control" id="message" name="message"name="message" placeholder="Message" style="text-transform: none; height:300px"required="required"></textarea>
-                        </div>
-                      </div>
-                      <div class="vstack gap-3">
-                      <div class="d-flex justify-content-center" data-netlify-recaptcha="true"></div>
-
-                        <button type="submit" class="btn btn--primary" style="float:bottom; top:10px; text-align: center;">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24.779 24.779">
-                            <path d="M24.567.213a.726.726,0,0,0-.783-.161L.457,9.383A.726.726,0,0,0,.41,10.711l9.2,4.461,4.461,9.2a.726.726,0,0,0,.653.409h.026a.726.726,0,0,0,.648-.456L24.727,1A.726.726,0,0,0,24.567.213ZM2.522,10.121,21.039,2.714,10,13.75ZM14.659,22.258,11.03,14.776,22.066,3.741Z" transform="translate(0 -0.001)" fill="#fff"></path>
-                          </svg><span>send now</span>
-                        </button>
-                      </div>
-                        <!--  End .input-group-->
-                        <input type="hidden" name="_email.subject" value="New Where's Foster Comment" />
-                        <input type="hidden" name="_email.from" value="Where's Foster" />
-                      </form>
-                      <div class="subscribe-alert"></div>
+                      <div id="disqus_thread"></div>
 
                   </div>
                   <!-- End .col-md-12-->
@@ -458,5 +417,13 @@
     <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/functions.js"></script>
+    <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+       var d = document, s = d.createElement('script');
+       s.src = 'https://wheresfoster.disqus.com/embed.js';
+       s.setAttribute('data-timestamp', +new Date());
+       (d.head || d.body).appendChild(s);
+       })();
+    </script>
   </body>
 </html>
