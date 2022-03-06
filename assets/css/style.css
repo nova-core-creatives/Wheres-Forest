@@ -1897,7 +1897,7 @@ a.back {
       .navbar .navbar-toggler .navbar-toggler-icon:after {
         top: 10px; }
   .navbar .navbar-collapse {
-    background-color: #ffffff;
+    background-color: #2C2929;
     padding: 15px; }
   .navbar.navbar-fixed .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
     background-color: transparent; }
@@ -1971,8 +1971,8 @@ a.back {
         line-height: 40px;
         font-size: 13px;
         margin-right: 0px;
-        background-color: #A65233;
-        border-color: #A65233;
+        background-color: #ACD1F2;
+        border-color: #ACD1F2;
         color: #ffffff; }
         .header .module-container .module-cta .btn:before {
           line-height: 40px; } }
